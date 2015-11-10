@@ -466,3 +466,38 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Post listing */
+.posts,
+.post-content {
+    padding: 5% 10%;
+}
+.post-link,
+.post-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.post-teaser {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.excerpt {
+    margin-top: 1em;
+}
+
+/* Buttons */
+.button {
+  border-radius: 0.3em;
+  border: 1px solid;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.5em 0.75em;
+}
+.button:hover {
+  background: #1ABC9C;
+  /*border: 1px solid #1ABC9C;*/
+  color: #fff;
+  text-decoration: none;
+}
+
+

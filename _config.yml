@@ -1,7 +1,7 @@
 # Site settings
 title: Jen Haines
 email: jh@jenhaines.com
-url: https://example.github.io
+url: http://www.jenhaines.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 skills: "Full Stack Developer - Frontend - User Experience Designer"
 meta_author: Haines Jen
@@ -15,6 +15,11 @@ bing_verify:
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
 
+theme:
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
@@ -24,10 +29,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Jen C. Haines
+  location: Earth
   social: Around the Web
-  credits: Credits
+  credits: Thanks Jeykll and Bootstrap for helping me create this site.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -62,3 +67,4 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments

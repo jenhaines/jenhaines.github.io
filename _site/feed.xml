@@ -3,31 +3,59 @@
   <channel>
     <title>Jen Haines</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>https://example.github.io/</link>
+    <link>http://www.jenhaines.com/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Nov 2015 23:11:19 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2015 23:11:19 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2015 21:38:36 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2015 21:38:36 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Markdown and HTML</title>
+        <title>Sample work</title>
         <description></description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
-        <link>https://example.github.io/2014/11/28/markdown-and-html/</link>
-        <guid isPermaLink="true">https://example.github.io/2014/11/28/markdown-and-html/</guid>
+        <pubDate>Fri, 06 Nov 2015 00:00:00 -0800</pubDate>
+        <link>http://www.jenhaines.com/2015/11/06/sample-work/</link>
+        <guid isPermaLink="true">http://www.jenhaines.com/2015/11/06/sample-work/</guid>
         
         
       </item>
     
       <item>
-        <title>Project 6</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>https://example.github.io/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">https://example.github.io/web%20development/2014/07/15/project-6/</guid>
+        <title>Sample post</title>
+        <description></description>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
+        <link>http://www.jenhaines.com/2014/11/30/sample-post/</link>
+        <guid isPermaLink="true">http://www.jenhaines.com/2014/11/30/sample-post/</guid>
         
         
-        <category>web development</category>
+      </item>
+    
+      <item>
+        <title>Feature images</title>
+        <description></description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 -0800</pubDate>
+        <link>http://www.jenhaines.com/2014/11/29/feature-images/</link>
+        <guid isPermaLink="true">http://www.jenhaines.com/2014/11/29/feature-images/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Markdown and HTML</title>
+        <description></description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
+        <link>http://www.jenhaines.com/2014/11/28/markdown-and-html/</link>
+        <guid isPermaLink="true">http://www.jenhaines.com/2014/11/28/markdown-and-html/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Start Bootstrap</title>
+        <description></description>
+        <pubDate>Sun, 13 Jul 2014 00:00:00 -0700</pubDate>
+        <link>http://www.jenhaines.com/2014/07/13/project-6/</link>
+        <guid isPermaLink="true">http://www.jenhaines.com/2014/07/13/project-6/</guid>
+        
         
       </item>
     
