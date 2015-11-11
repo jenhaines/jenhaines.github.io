@@ -39,13 +39,13 @@ social:
   - title: twitter
     url: http://twitter.com/jenchaines
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/jane6767
+  - title: linkedin
+    url: https://www.linkedin.com/in/jenhaines
+  - title: google-plus
+    url: https://plus.google.com/+JenniferHaines46
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/jenhaines
 
 # Postal address (add as many lines as necessary)
 address:

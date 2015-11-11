@@ -488,9 +488,42 @@ footer .footer-below {
 }
 .button:hover {
   background: #1ABC9C;
-  /*border: 1px solid #1ABC9C;*/
   color: #fff;
   text-decoration: none;
 }
+
+/* Full Post Page */
+
+
+ .post-page {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.meta{
+    text-align: center;
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+/*header img {
+    display: block;
+    margin: 0 auto 20px;
+}*/
+
+
+/*.feature-image header{
+  color: #fff;
+  background-size: cover;
+  margin-bottom: 0;
+  padding: 5% 10%;
+}*/
 
 
