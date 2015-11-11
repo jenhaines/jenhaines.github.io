@@ -195,6 +195,7 @@ section h2 {
 }
 
 section#portfolio {
+    padding: 40px 0 0 0;
     color: #fff;
     background: #{{ site.color.primary }};
 }
@@ -461,9 +462,11 @@ footer .footer-below {
 }
 
 /* Post listing */
-.posts,
-.post-content {
-    padding: 5% 10%;
+.posts {
+    margin: 40px 0 0 0;
+}
+.post-teaser {
+    padding: 20px 10%;
 }
 .post-link,
 .post-link:hover {
@@ -491,6 +494,9 @@ footer .footer-below {
   color: #fff;
   text-decoration: none;
 }
+#about {
+    padding: 40px 0 0 0;
+}
 
 /* Full Post Page */
 
@@ -506,7 +512,7 @@ footer .footer-below {
 }
 
 .meta{
-    text-align: center;
+    /*text-align: center;*/
     color: rgba(0, 0, 0, .5);
     font-size: 16px;
     letter-spacing: 0.1em;
