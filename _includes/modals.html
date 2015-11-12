@@ -3,11 +3,11 @@
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+                            <div class="lr">
+                                <div class="rl">
+                                </div>
+                            </div>
+                        </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -18,19 +18,21 @@
                             <p>{{ project.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
+                                    <strong><a target="_blank" href="{{ project.app-url }}">{{ project.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
+                                    <strong><a target="_blank" href="{{ project.app-url }}">{{ project.date }}</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
+                                    <strong><a target="_blank" href="{{ project.app-url }}">{{ project.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <a target="_blank" href="{{ project.app-url }}" type="button" class="btn btn-default"><i class="fa fa-eye"></i> Live Preview</a>
+                            <a href="{{ project.github }}" type="button" class="btn btn-default"><i class="fa fa-fw fa-github"></i> view in Github</a>
+                            <a href="#" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-fw fa-times"></i> Close</a>
                         </div>
                     </div>
                 </div>

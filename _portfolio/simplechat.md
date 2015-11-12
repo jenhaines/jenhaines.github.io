@@ -1,14 +1,13 @@
 ---
 layout: default
 modal-id: 8
-date: 2015-11-8
+date: July 2015
 title: Simplechat
 img: simplechat.png
-alt: circus.png
-project-date: April 2014
 client: Bloc
 category: Social
-description: Basic Angular Chatroom!
-url:
+app-url: https://simplechat-jh.herokuapp.com
+github: https://github.com/jenhaines/simplechat
+description: Basic Angularfire Chatroom!
 ---
 

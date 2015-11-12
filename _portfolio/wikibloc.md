@@ -1,13 +1,12 @@
 ---
 layout: default
 modal-id: 9
-date: 2015-11-8
+date: January 2015
 title: Wikibloc
 img: wikibloc.png
-alt: safe.png
-project-date: April 2014
 client: Bloc
 category: Social
-description: Wikipedia clone!
-url:
+app-url: https://wikibloc.herokuapp.com
+github: https://github.com/jenhaines/wikibloc
+description: Rails-based Wikipedia clone!
 ---

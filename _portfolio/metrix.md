@@ -1,15 +1,14 @@
 ---
 layout: default
 modal-id: 6
-date: 2015-11-8
+date: Feb. 2015
 title: Metrix
 img: metrix.png
-alt: cake.png
-project-date: April 2014
 client: Bloc
 category: Business
+app-url: https://metrix-jh.herokuapp.com
+github: https://github.com/jenhaines/metrix
 description: Analytics API!
-url:
 ---
 
 

@@ -1,13 +1,12 @@
 ---
 layout: default
 modal-id: 2
-date: 2015-11-8
+date: October 2015
 title: Pong
-img: pong.png
-alt: cake.png
-project-date: April 2015
+img: awesomepong.png
 client: Bloc
 category: Games
-description: Wanna play a game?
-url:
+app-url: https://awesomepong.herokuapp.com
+github: https://github.com/jenhaines/pong
+description: Pure HTML5 version of the classic arcade game Pong. The game is for one player versus an AI player.
 ---

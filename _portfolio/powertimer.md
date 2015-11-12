@@ -1,14 +1,13 @@
 ---
 layout: default
 modal-id: 7
-date: 2015-11-8
+date: August 2015
 title: PowerTimer
 img: powertimer.png
-alt: cake.png
-project-date: April 2014
 client: Bloc
 category: Productivity
-description: Pomodoro Timer!
-url:
+app-url: https://powertimer.herokuapp.com/
+github: https://github.com/jenhaines/powertimer
+description: Angular-based Pomodoro Timer with To do list!
 ---
 

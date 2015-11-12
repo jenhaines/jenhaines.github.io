@@ -1,13 +1,12 @@
 ---
 layout: default
 modal-id: 3
-date: 2015-11-8
+date: November 2014
 title: Bloccit
 img: bloccit.png
-alt: circus.png
-project-date: April 2015
 client: Bloc
-category: Social
-description: Real live Reddit clone.
-url:
+category: Social App
+app-url: https://bloccit-jh.herokuapp.com/
+github: https://github.com/jenhaines/bloccit-jh
+description: Real live Rails-based Reddit clone.
 ---

@@ -1,13 +1,12 @@
 ---
 layout: default
 modal-id: 5
-date: 2015-11-8
+date: April 2015
 title: Bloc Jams
 img: blocjams.png
-alt: cabin.png
-project-date: April 2014
 client: Bloc
 category: Music
-description: Spotify clone!
-url:
+app-url: https://blocjams-jh.herokuapp.com
+github: https://github.com/jenhaines/bloc-jams
+description: Angular based Spotify clone!
 ---
