@@ -519,17 +519,17 @@ footer .footer-below {
     margin-top: 0;
     text-transform: uppercase;
 }
-/*header img {
-    display: block;
-    margin: 0 auto 20px;
-}*/
 
-
-/*.feature-image header{
-  color: #fff;
-  background-size: cover;
-  margin-bottom: 0;
-  padding: 5% 10%;
-}*/
+/* Pagination */
+.pagination .button {
+  margin: 0 1.5em;
+}
+.pagination .button  i {
+    vertical-align: middle;
+}
+.pagination {
+  padding: 0 15px;
+  text-align: center;
+}
 
 
