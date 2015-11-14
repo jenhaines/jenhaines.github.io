@@ -1,6 +1,6 @@
 # Site settings
 title: Jen Haines
-email: jh@jenhaines.com
+email: jen@jenhaines.com
 url: http://www.jenhaines.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 skills: "Full Stack Developer - Frontend - User Experience Designer"
@@ -32,20 +32,20 @@ footer:
   copyright: Jen C. Haines
   location: Earth
   social: Around the Web
-  credits: Thanks Jeykll and Bootstrap for helping me create this site.
+  credits: Thank You
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jenchaines
-  - title: facebook
-    url: https://www.facebook.com/jane6767
   - title: linkedin
     url: https://www.linkedin.com/in/jenhaines
   - title: google-plus
     url: https://plus.google.com/+JenniferHaines46
   - title: github
     url: http://github.com/jenhaines
+  - title: facebook
+    url: https://www.facebook.com/jane6767
 
 # Postal address (add as many lines as necessary)
 address:
@@ -62,7 +62,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<a href="https://jekyllrb.com">Jekyll</a> and <a href="http://startbootstrap.com">Start Bootstrap</a> for helping me create this site.'
 
 # Build settings
 markdown: kramdown

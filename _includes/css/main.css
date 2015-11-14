@@ -195,7 +195,7 @@ section h2 {
 }
 
 section#portfolio {
-    padding: 40px 0 0 0;
+    padding: 40px 0;
     color: #fff;
     background: #{{ site.color.primary }};
 }
@@ -340,12 +340,12 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 footer .footer-below {
@@ -494,8 +494,11 @@ footer .footer-below {
   color: #fff;
   text-decoration: none;
 }
+.button i {
+    vertical-align: middle;
+}
 #about {
-    padding: 40px 0 0 0;
+    padding: 40px 0;
 }
 
 /* Full Post Page */
@@ -519,17 +522,3 @@ footer .footer-below {
     margin-top: 0;
     text-transform: uppercase;
 }
-
-/* Pagination */
-.pagination .button {
-  margin: 0 1.5em;
-}
-.pagination .button  i {
-    vertical-align: middle;
-}
-.pagination {
-  padding: 0 15px;
-  text-align: center;
-}
-
-
