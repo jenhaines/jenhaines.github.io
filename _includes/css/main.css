@@ -170,19 +170,14 @@ header .intro-text .skills {
     border: 0;
 }
 
-section {
+/*section {
     padding: 100px 0;
-}
+}*/
 
 section h2 {
     margin: 0;
     font-size: 3em;
 }
-
-/*section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
-}*/
 
 @media(max-width:767px) {
     section {
@@ -510,7 +505,7 @@ footer .footer-below {
 }
 
 .title {
-    text-align: center;
+    padding-top: 10px;
     margin-bottom: 0;
 }
 
