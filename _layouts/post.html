@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-<div class="post-page">
-        <div class="container"> 
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center post-page">
+                <h2>{{ page.title }}</h2>
+                <hr class="star-primary">
+            </div>
+        </div> 
             <div class="row">
                 <div class="col-lg-12">
-                        <h2 class="title">{{ page.title }}</h2>
-                        <p class="meta">
+                        <p class="metameta">
                             {{ page.date | date: "%B %-d, %Y" }}
                             {% if page.author %} - {{ page.author }}{% endif %}
                         </p>
@@ -22,9 +25,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    {% include footer.html %}
-    {% include js.html %}
+        {% include footer-below.html %}
     </body>
 </html>

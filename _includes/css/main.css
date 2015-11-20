@@ -500,8 +500,7 @@ footer .footer-below {
 
 
  .post-page {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .title {
@@ -510,10 +509,18 @@ footer .footer-below {
 }
 
 .meta{
-    /*text-align: center;*/
     color: rgba(0, 0, 0, .5);
     font-size: 16px;
     letter-spacing: 0.1em;
     margin-top: 0;
+    text-transform: uppercase;
+}
+
+.metameta{
+    text-align: center;
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin: 0 0 40px 0;
     text-transform: uppercase;
 }
