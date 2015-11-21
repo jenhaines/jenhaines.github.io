@@ -3,9 +3,14 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ html {
+    position: relative;
+    min-height: 100%;
+ }
 
 body {
     overflow-x: hidden;
+    margin-bottom: 60px;
 }
 
 p {
@@ -170,10 +175,6 @@ header .intro-text .skills {
     border: 0;
 }
 
-/*section {
-    padding: 100px 0;
-}*/
-
 section h2 {
     margin: 0;
     font-size: 3em;
@@ -324,28 +325,6 @@ section#portfolio {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
-}
-
-footer {
-    color: #fff;
-}
-
-footer h3 {
-    margin-bottom: 30px;
-}
-
-footer .footer-above {
-    padding-top: 20px;
-    background-color: #{{ site.color.secondary }};
-}
-
-footer .footer-col {
-    margin-bottom: 20px;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -523,4 +502,32 @@ footer .footer-below {
     letter-spacing: 0.1em;
     margin: 0 0 40px 0;
     text-transform: uppercase;
+}
+
+.footer-above {
+    color: #fff;
+    padding-top: 20px;
+    background-color: #{{ site.color.secondary }};
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer-above h3 {
+    margin-bottom: 30px;
+}
+.footer-below {
+    color: #fff;
+    padding: 25px 0;
+    background-color: #{{ site.color.secondary-dark }};
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
