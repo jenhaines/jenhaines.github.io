@@ -3,11 +3,11 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tutorials - The Good, The Bad, and the Ugly...</title>
+    <title>Markdown and HTML</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     <meta name="author" content="Haines Jen">
-    <link rel="canonical" href="http://www.jenhaines.com/2015/12/14/post/">
+    <link rel="canonical" href="http://www.jenhaines.com/archive/2014-11-28-markdown-and-html%20copy/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -37,49 +37,63 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center post-page">
-                <h2>Tutorials - The Good, The Bad, and the Ugly...</h2>
+                <h2>Markdown and HTML</h2>
                 <hr class="star-primary">
             </div>
         </div> 
             <div class="row">
                 <div class="col-lg-12">
                         <p class="metameta">
-                            December 14, 2015
+                            
                             
                         </p>
                     <!-- </article> -->
-                    <section><p><img src="/img/good-bad-ugly.jpg" alt="Good Bad Ugly" /></p>
+                    <section><p>Jeykll supports the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.</p>
 
-<p>Being from the “show-me” state, I learn best by doing, failing, researching, redoing, and eventually succeeding. Online tutorials have been an essential part of my progress in coding. However with each of these tutorials things are not always what they seem.</p>
+<p>Tables have also been extended from Markdown:</p>
 
-<p>I thought as my first post on my blog I would go over <em>“The Good, The Bad, and The Ugly”</em> of online tutorials.</p>
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Good:</strong></p>
+<p>Here’s an example of an image, which is included using Markdown:</p>
 
-<ul>
-  <li>Some very generous people have donated their time and effort to give us access to all these great resources for FREE!</li>
-  <li><em>“Monkey See, Monkey Do”</em> If you like to learn “hands on” these are invaluable.</li>
-  <li>Often in the process of trying to get these older apps to work, you learn much about debugging and researching problems.</li>
-</ul>
+<p><img src="/img/sample_feature_img_2.png" alt="Geometric pattern with fading gradient" /></p>
 
-<p><strong>Bad:</strong></p>
+<p>Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.</p>
 
-<ul>
-  <li>Unbeknownst to some, many of these tutorials were done years ago. Things change, versions are updated and often the code does not translate to current versions.</li>
-  <li>Some are better than others on proper coding techniques, while others might teach methods that are not really proper or supported anymore.</li>
-</ul>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to ten</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+<span class="p">}</span>
 
-<p><strong>Ugly:</strong></p>
+<span class="c1">// count to twenty</span>
+<span class="kd">var</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="nx">j</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">j</span><span class="o">++</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">j</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
 
-<ul>
-  <li>Much time can be spent in tracking down why the app is not working. If you are in a study progam of some kind this can take much of your valuable time.</li>
-</ul>
+<p>Type Theme uses KaTeX to display maths. Equations such as <script type="math/tex">S_n = a \times \frac{1-r^n}{1-r}</script> can be displayed inline.</p>
 
-<p>Overall I am grateful these resources are available to me and being a part of the Open Source community is awesome! Your time and abilities are your only limits to achieving your goals!</p>
+<p>Alternatively, they can be shown on a new line:</p>
 
-<p>In the past when I’ve worked exclusively in a platform (<em>like Lotus Notes</em>) all the training materials were expensive.</p>
-
-<p><strong>All Hail Open Source!</strong></p>
+<script type="math/tex; mode=display">f(x) = \int \frac{2x^2+4x+6}{x-2}</script>
 
                     <a href="#" class="button" onclick="window.history.back(-1)" >
                       <i class="fa fa-chevron-left"></i>
